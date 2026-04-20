@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        #map {
+            width: 1284px;
+            height: 815px;
+        }
+        </style>
+        <title>Construir 2034 - Plan de Obras 2024 - 2033</title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="layers/LimitesProvincias_1.js"></script><script src="layers/ConstruccionesIndustriales_2.js"></script><script src="layers/Minera_3.js"></script><script src="layers/Turismo_4.js"></script><script src="layers/Punto_ET_Puerto_Madryn_no_label_5.js"></script><script src="layers/Punto_ET_CH_CH_no_label_6.js"></script><script src="layers/LMTETChoeleChoelETPuertoMadryn_7.js"></script><script src="layers/LEAT_ETPLOMERVIVORATA_va_8.js"></script><script src="layers/Punto_ET_Vivorata_no_label_9.js"></script><script src="layers/Punto_ET_Plomer_no_label_10.js"></script><script src="layers/VialPasoFrontera_11.js"></script><script src="layers/CorredorMineroUspallataLaQuiaca_12.js"></script><script src="layers/CorredorMinero_13.js"></script><script src="layers/FFCCTranspatagnico_14.js"></script><script src="layers/FFCCLneaUrquizaInterurbano_15.js"></script><script src="layers/FFCCC14C13_16.js"></script><script src="layers/FFCCLneaSanMartnInterurbano_17.js"></script><script src="layers/Puertos_18.js"></script><script src="layers/RutaSegura_19.js"></script><script src="layers/RN181a_20.js"></script><script src="layers/RN181b_21.js"></script><script src="layers/Crema_22.js"></script><script src="layers/AutopistaAutovia_23.js"></script><script src="layers/Pavimentacin2carriles_24.js"></script><script src="layers/AguaySaneamiento_25.js"></script><script src="layers/MitigacindeExtremosHdricos_26.js"></script><script src="layers/AguaySaneamiento_27.js"></script><script src="layers/AguaySaneamiento_28.js"></script><script src="layers/Seguridad_29.js"></script><script src="layers/DesarrolloUrbanoAmbiental_30.js"></script><script src="layers/Infraestructuraescolar_31.js"></script><script src="layers/Salud_32.js"></script>
+        <script src="styles/LimitesProvincias_1_style.js"></script><script src="styles/ConstruccionesIndustriales_2_style.js"></script><script src="styles/Minera_3_style.js"></script><script src="styles/Turismo_4_style.js"></script><script src="styles/Punto_ET_Puerto_Madryn_no_label_5_style.js"></script><script src="styles/Punto_ET_CH_CH_no_label_6_style.js"></script><script src="styles/LMTETChoeleChoelETPuertoMadryn_7_style.js"></script><script src="styles/LEAT_ETPLOMERVIVORATA_va_8_style.js"></script><script src="styles/Punto_ET_Vivorata_no_label_9_style.js"></script><script src="styles/Punto_ET_Plomer_no_label_10_style.js"></script><script src="styles/VialPasoFrontera_11_style.js"></script><script src="styles/CorredorMineroUspallataLaQuiaca_12_style.js"></script><script src="styles/CorredorMinero_13_style.js"></script><script src="styles/FFCCTranspatagnico_14_style.js"></script><script src="styles/FFCCLneaUrquizaInterurbano_15_style.js"></script><script src="styles/FFCCC14C13_16_style.js"></script><script src="styles/FFCCLneaSanMartnInterurbano_17_style.js"></script><script src="styles/Puertos_18_style.js"></script><script src="styles/RutaSegura_19_style.js"></script><script src="styles/RN181a_20_style.js"></script><script src="styles/RN181b_21_style.js"></script><script src="styles/Crema_22_style.js"></script><script src="styles/AutopistaAutovia_23_style.js"></script><script src="styles/Pavimentacin2carriles_24_style.js"></script><script src="styles/AguaySaneamiento_25_style.js"></script><script src="styles/MitigacindeExtremosHdricos_26_style.js"></script><script src="styles/AguaySaneamiento_27_style.js"></script><script src="styles/AguaySaneamiento_28_style.js"></script><script src="styles/Seguridad_29_style.js"></script><script src="styles/DesarrolloUrbanoAmbiental_30_style.js"></script><script src="styles/Infraestructuraescolar_31_style.js"></script><script src="styles/Salud_32_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>

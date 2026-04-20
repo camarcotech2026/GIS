@@ -1,0 +1,1 @@
+var json_Punto_ET_Vivorata_no_label_9 = {"type":"FeatureCollection","name":"Punto_ET_Vivorata_no_label_9","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":null},"geometry":{"type":"Point","coordinates":[-57.731441904543587,-37.694200402365468]}}]}

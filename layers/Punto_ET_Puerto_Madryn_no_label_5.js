@@ -1,0 +1,1 @@
+var json_Punto_ET_Puerto_Madryn_no_label_5 = {"type":"FeatureCollection","name":"Punto_ET_Puerto_Madryn_no_label_5","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":null},"geometry":{"type":"Point","coordinates":[-65.106780008504529,-42.704192697432553]}}]}

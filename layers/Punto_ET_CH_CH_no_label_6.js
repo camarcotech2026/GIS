@@ -1,0 +1,1 @@
+var json_Punto_ET_CH_CH_no_label_6 = {"type":"FeatureCollection","name":"Punto_ET_CH_CH_no_label_6","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":null},"geometry":{"type":"Point","coordinates":[-65.691724955060423,-39.570019371979996]}}]}
